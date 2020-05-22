@@ -1,4 +1,4 @@
-EditThisCookie
+AM-EditThisCookie
 ========================
 
 Description
