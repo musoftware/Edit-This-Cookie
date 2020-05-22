@@ -174,6 +174,26 @@ function copyToClipboard(text) {
     $('body').scrollTop(scrollsave);
 }
 
+function saveToFile(text) {
+    if (text === undefined)
+        return;
+
+    //Appending an element causes the window to scroll...so we save the scroll position and restore it later
+    var scrollsave = $('body').scrollTop();
+
+  var filename = "account_cookies.txt";
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
 function isChristmasPeriod() {
     var nowDate = new Date();
     var isMidDecember = (nowDate.getMonth() === 11 && nowDate.getDate() > 5);

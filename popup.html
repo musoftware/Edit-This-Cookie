@@ -79,6 +79,9 @@
                     <i class="fa fa-sign-out"></i>
                     <span i18n="Copy_Cookies"></span>
                 </a>
+                <a id="saveButton" class="notOnEmpty" i18n_title="Save_Cookies">
+                    <i class="fa fa-file"></i>
+                </a>
                 <a id="searchButton" class="notOnEmpty" i18n_title="search">
                     <i class="fa fa-search"></i>
                     <span i18n="search"></span>
@@ -267,7 +270,8 @@
         </div>
 
         <div id="copiedToast" class="toast" i18n="Copied_clipboard"></div>
-
+        <div id="savedToast" class="toast" i18n="Copied_file" style="display: none">Cookies Saved to file</div>
+        
         <div id="submitDiv">
             <i id="submitButton" class="fa fa-check" i18n_title="Alert_submitAll"></i>
             <a id="helpButton" i18n="help" href="http://www.editthiscookie.com/start/" target="_blank">
