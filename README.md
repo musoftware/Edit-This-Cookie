@@ -26,10 +26,9 @@ Main
 
 Contributing
 --------------
-- Improve the translations or add new languages [here](http://www.getlocalization.com/editthiscookie/)
+- Improve the translations or add new languages
 
 
 How to Install
 --------------
-
-Install it on Chrome from [here](https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg)
+Install it on Chrome from download it and load unpacked extension on
