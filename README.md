@@ -1,4 +1,4 @@
-EditThisCookie
+AM-EditThisCookie
 ========================
 
 Description
@@ -7,6 +7,12 @@ Description
 EditThisCookie is a cookie manager. You can add, delete, edit, search, protect, and block cookies!
 Inspired by the lack of good cookie managers in Google Chrome, I developed this small, simple, and extremely useful extension that allows you to do anything you'll ever need to do to cookies!
 
+Musoftware Edits :
+---------------
+* Save cookies to file
+
+Main
+---------------
 * Delete any cookie
 * Edit any cookie
 * Add a new cookie
@@ -20,10 +26,9 @@ Inspired by the lack of good cookie managers in Google Chrome, I developed this 
 
 Contributing
 --------------
-- Improve the translations or add new languages [here](http://www.getlocalization.com/editthiscookie/)
-
+- Improve the translations or add new languages
+ 
 
 How to Install
 --------------
-
-Install it on Chrome from [here](https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg)
+Install it on Chrome from download it and load unpacked extension on
